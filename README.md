@@ -27,15 +27,3 @@ GRUB_THEME="/boot/grub/themes/HONOR/theme.txt"（与你放置HONOR文件夹的�
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg<br>
 或
 sudo grub2-mkconfig -o /boot/grub/grub.cfg（与你上面放置HONOR文件夹的位置有关）<br>
-
-对于UEFI的电脑：<br>
--
-执行<br>
-sudo grub2-mkconfig -o /boot/efi/EFI/"你操作系统的名字，与上面一致"/grub.cfg<br>
-
-对于BIOS的电脑：<br>
--
-执行<br>
-sudo grub2-mkconfig -o /boot/grub2/grub.cfg<br>
-或
-sudo grub2-mkconfig -o /boot/grub/grub.cfg（与你上面放置HONOR文件夹的位置有关）<br>
