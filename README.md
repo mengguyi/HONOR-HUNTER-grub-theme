@@ -22,8 +22,8 @@ HONOR HUNTER笔记本电脑grub主题
 -
 复制<code>zh_CN.mo</code>到<code>/boot/grub/locale</code> 或<code>/boot/grub2/locale</code> 下<br>
 修改<code>/etc/grub</code><br>
-将<code>GRUB_TERMINAL_OUTPUT="console"</code>注释掉（在前面添加<code>#</code>修改为：#GRUB_TERMINAL_OUTPUT="console"）<br>
-添加GRUB_THEME="/boot/grub2/themes/HONOR/theme.txt" 或<br>
+将<code>GRUB_TERMINAL_OUTPUT="console"</code>注释掉（在前面添加<code>#</code>修改为：<code>#GRUB_TERMINAL_OUTPUT="console"</code>）<br>
+添加<code>GRUB_THEME="/boot/grub2/themes/HONOR/theme.txt"</code> 或<br>
 GRUB_THEME="/boot/grub/themes/HONOR/theme.txt"（与你放置HONOR文件夹的位置有关）<br>
 修改GRUB_TIMEOUT=0为GRUB_TIMEOUT=5或任何大于等于0的数<br>
 执行<br>
