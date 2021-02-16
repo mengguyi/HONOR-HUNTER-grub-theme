@@ -25,8 +25,8 @@ HONOR HUNTER笔记本电脑grub主题
 将<code>GRUB_TERMINAL_OUTPUT="console"</code>注释掉（在前面添加<code>#</code>修改为：<code>#GRUB_TERMINAL_OUTPUT="console"</code>）<br>
 添加<code>GRUB_THEME="/boot/grub2/themes/HONOR/theme.txt"</code> 或<br>
 <code>GRUB_THEME="/boot/grub/themes/HONOR/theme.txt"</code>（与你放置HONOR文件夹的位置有关）<br>
-修改<code>GRUB_TIMEOUT=0</code>为GRUB_TIMEOUT=5或任何大于等于0的数<br>
+修改<code>GRUB_TIMEOUT=0</code>为<code>GRUB_TIMEOUT=5</code>或任何大于等于0的数<br>
 执行<br>
-sudo grub2-mkconfig -o /boot/grub2/grub.cfg<br>
+<code>sudo grub2-mkconfig -o /boot/grub2/grub.cfg</code><br>
 或
-sudo grub2-mkconfig -o /boot/grub/grub.cfg（与你上面放置HONOR文件夹的位置有关）<br>
+<code>sudo grub2-mkconfig -o /boot/grub/grub.cfg</code>（与你上面放置HONOR文件夹的位置有关）<br>
