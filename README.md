@@ -28,7 +28,6 @@ sudo grub2-mkconfig -o /boot/efi/EFI/"你操作系统的名字，与上面一致
 
 对于BIOS的电脑：<br>
 -
-
 执行<br>
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg<br>
 或
