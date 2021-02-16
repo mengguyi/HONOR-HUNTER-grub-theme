@@ -7,6 +7,11 @@ HONOR HUNTER笔记本电脑grub主题
 对于UEFI的电脑：<br>
 -
 复制zh_CN.mo到/boot/efi/EFI/"你操作系统的名字"/locale 下<br>
+修改/etc/grub<br>
+将GRUB_TERMINAL_OUTPUT="console"注释掉（在前面添加"#"修改为：#GRUB_TERMINAL_OUTPUT="console"）<br>
+添加GRUB_THEME="/boot/grub2/themes/HONOR/theme.txt" 或<br>
+GRUB_THEME="/boot/grub/themes/HONOR/theme.txt"（与你放置HONOR文件夹的位置有关）<br>
+修改GRUB_TIMEOUT=0为GRUB_TIMEOUT=5或任何大于等于0的数<br>
 
 对于BIOS的电脑：<br>
 -
