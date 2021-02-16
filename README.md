@@ -1,7 +1,5 @@
-HONOR-HUNTER-grub-theme
-=
 HONOR HUNTER笔记本电脑grub主题
--
+=
 安装教程：<br>
 -
 
@@ -18,3 +16,5 @@ HONOR HUNTER笔记本电脑grub主题
 复制zh_CN.mo到/boot/grub/locale 或/boot/grub2/locale 下<br>
 
 修改/etc/grub<br>
+将GRUB_TERMINAL_OUTPUT="console"注释掉（在前面添加"#"修改为：#GRUB_TERMINAL_OUTPUT="console"）<br>
+添加GRUB_THEME="/boot/grub2/themes/HONOR/theme.txt" 或 GRUB_THEME="/boot/grub/themes/HONOR/theme.txt"
