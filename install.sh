@@ -47,9 +47,9 @@ prompt() {
 # Welcome message
 echo ""
 prompt -s "\t          *****************************"
-prompt -s "\t          *  BigSur Bootloader Theme  *"
+prompt -s "\t          *  HONOR Bootloader Theme  *"
 prompt -s "\t          *****************************"
-prompt -s "\t             Grub theme by Teraskull"
+prompt -s "\t             
 echo ""
 
 
